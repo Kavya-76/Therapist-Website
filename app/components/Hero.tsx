@@ -7,11 +7,11 @@ const Hero = () => {
     <div className="relative min-h-screen bg-[#F3F0E8]">
 
       {/* Logo Header */}
-      <header className="w-full flex py-6">
+      <header className="w-full">
         <img
           src="/logo-transparent-png.png" // Ensure logo.png is placed in the public/ folder
           alt="Dr. Serena Blake Logo"
-          className="pl-15 h-16 sm:h-20 object-contain"
+          className="h-16 sm:h-20 md:h-30 lg:h-40 object-contain"
         />
       </header>
 
