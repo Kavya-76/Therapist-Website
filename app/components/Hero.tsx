@@ -6,16 +6,20 @@ const Hero = () => {
   return (
     <div className="relative min-h-screen bg-[#F3F0E8]">
 
-      {/* Heading */}
-      <header className="w-full text-gray-800 text-center">
-        <h1 className="text-2xl sm:text-3xl py-6 font-semibold">Heading</h1>
+      {/* Logo Header */}
+      <header className="w-full flex py-6">
+        <img
+          src="/logo-transparent-png.png" // Ensure logo.png is placed in the public/ folder
+          alt="Dr. Serena Blake Logo"
+          className="pl-15 h-16 sm:h-20 object-contain"
+        />
       </header>
 
-      {/* Wrapper for spacing below the fixed header */}
-      <div className="pt-10 pb-20 px-20 max-w-screen mx-auto">
+      {/* Wrapper for spacing below the logo */}
+      <div className="pt-6 pb-20 px-4 sm:px-20 max-w-screen mx-auto">
 
         {/* GIF background */}
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden rounded-xl shadow-lg">
           <img
             src="/bg.gif"
             alt="Background GIF"
