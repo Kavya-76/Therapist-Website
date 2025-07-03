@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-50">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#FEFEFE]">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           {/* Text Content */}
@@ -13,40 +13,15 @@ const About = () => {
 
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p className="text-lg">
-                Finding time and opportunities to care for ourselves can be
-                incredibly challenging in today's busy and demanding world. I
-                believe therapy offers a dedicated space for self-care,
-                providing the support and tools needed to improve this essential
-                practice.
+                Dr. Serena Blake is a licensed clinical psychologist (PsyD) based in Los Angeles, California, with over eight years of experience supporting individuals on their mental health journeys. Having facilitated more than 500 therapy sessions, she brings both depth and dedication to her practice. Dr. Blake specializes in helping clients navigate anxiety, trauma, and relational challenges, with a strong foundation in evidence-based treatments such as cognitive-behavioral therapy (CBT) and mindfulness-based approaches.
               </p>
 
               <p className="text-lg">
-                Therapy can help individuals identify and clarify their goals,
-                values, and the various elements that contribute to their
-                well-being, recognizing that these aspects vary from person to
-                person.
+                Her therapeutic style is warm, collaborative, and rooted in compassion. She believes that every person’s story is unique—and so should be their healing process. Whether you're working through life transitions, emotional distress, or long-standing patterns, Dr. Blake meets you where you are with personalized strategies and a non-judgmental presence. Her goal is to not only help you feel better but also to empower you with the tools to thrive in your everyday life.
               </p>
 
               <p className="text-lg">
-                I am dedicated to supporting this journey by offering active
-                listening, psychological knowledge, empathy, compassion, and
-                insights into behavioral patterns and tendencies. I hold a
-                master's degree in Clinical Psychology from the Michigan School
-                of Psychology (2012) and a Ph.D. in Counseling Psychology from
-                Western Michigan University (2018).
-              </p>
-
-              <p className="text-lg">
-                My experience spans therapy and psychological assessment in
-                psychiatric inpatient units, academic medical centers,
-                universities, and outpatient practice settings.
-              </p>
-
-              <p className="text-lg">
-                My therapeutic approach is primarily psychodynamic and focuses
-                on understanding unconscious patterns and developing insight
-                into how past experiences influence present behavior and
-                relationships.
+                Dr. Blake offers both in-person sessions at her calm, welcoming office on Maplewood Drive in Los Angeles, and convenient virtual appointments via Zoom for clients across California. No matter the setting, she is committed to creating a safe, inclusive space where clients feel seen, heard, and supported. With a focus on authenticity and resilience, she partners with you to foster meaningful insight, emotional growth, and lasting change.
               </p>
             </div>
           </div>

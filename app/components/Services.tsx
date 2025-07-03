@@ -3,23 +3,23 @@ import React from "react";
 const Services = () => {
   const services = [
     {
-      title: "Therapy for Healthcare Providers and Students",
+      title: "Anxiety & Stress Management",
       description:
-        "The care you provide for others may be driving you to seek therapy, whether due to burnout, compassion fatigue, imposter syndrome, people-pleasing tendencies, or perfectionism.",
+        "Whether you're navigating academic pressures, workplace burnout, or constant overthinking, therapy can help you develop practical tools to reduce stress, understand your anxiety triggers, and restore calm to your daily life.",
       image:
         "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
-      title: "Therapy for Trauma and Grief",
+      title: "Relationship Counseling",
       description:
-        "Life's challenges, whether a difficult childhood, a traumatic event or series of events, or the loss of someone or something deeply meaningful, can lead to profound experiences of trauma and grief. Therapy offers a safe space to process these experiences.",
+        "Whether you're facing communication issues, recurring conflicts, or struggling with emotional intimacy, couples or individual therapy can provide a space to understand your relational patterns and build healthier connections.",
       image:
         "https://images.unsplash.com/photo-1500673922987-e212871fec22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },
     {
-      title: "Therapy for Second Generation Individuals In Immigrant Families",
+      title: "Trauma Recovery",
       description:
-        "Second-generation individuals in immigrant families, born in the U.S. to at least one parent born abroad, often navigate the complexities of multiple cultures and diverse expectations, which can create unique challenges and opportunities for growth.",
+        "Recovering from trauma—whether recent or long past—takes courage and care. Therapy offers a safe space to process your experiences, regulate difficult emotions, and begin healing from the inside out.",
       image:
         "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     },

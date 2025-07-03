@@ -3,7 +3,7 @@ import React from 'react';
 
 const Rates = () => {
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-100">
+    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#94B0B0]">
       <div className="max-w-4xl mx-auto text-center">
         {/* Section Header */}
         <h2 className="text-4xl sm:text-5xl font-light text-gray-800 mb-16">
