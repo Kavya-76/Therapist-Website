@@ -7,12 +7,12 @@ import Services from "./components/Services";
 
 export default function Home() {
   return (
-    <main>
+    <div className="min-h-screen">
       <Hero/>
       <About/>
       <Services/>
       <FAQ/>
       <Contact/>
-    </main>
+    </div>
   );
 }
