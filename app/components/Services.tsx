@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Services = () => {
@@ -41,10 +42,11 @@ const Services = () => {
             <div key={index} className="text-center space-y-6">
               {/* Circular Image */}
               <div className="flex justify-center mb-8">
-                <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg">
-                  <img
+                <div className="w-64 h-64 rounded-full overflow-hidden shadow-lg relative">
+                  <Image
                     src={service.image}
                     alt={service.title}
+                    fill
                     className="w-full h-full object-cover"
                   />
                 </div>

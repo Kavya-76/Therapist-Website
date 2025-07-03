@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -17,7 +18,7 @@ const About = () => {
               </p>
 
               <p className="text-lg">
-                Her therapeutic style is warm, collaborative, and rooted in compassion. She believes that every person’s story is unique—and so should be their healing process. Whether you're working through life transitions, emotional distress, or long-standing patterns, Dr. Blake meets you where you are with personalized strategies and a non-judgmental presence. Her goal is to not only help you feel better but also to empower you with the tools to thrive in your everyday life.
+                Her therapeutic style is warm, collaborative, and rooted in compassion. She believes that every person&apos;s story is unique—and so should be their healing process. Whether you&pos;re working through life transitions, emotional distress, or long-standing patterns, Dr. Blake meets you where you are with personalized strategies and a non-judgmental presence. Her goal is to not only help you feel better but also to empower you with the tools to thrive in your everyday life.
               </p>
 
               <p className="text-lg">
@@ -29,10 +30,11 @@ const About = () => {
           {/* Image */}
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-96 lg:w-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
-                <img
+              <div className="w-80 h-96 lg:w-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl relative">
+                <Image
                   src="/Therapist image.webp"
                   alt="Dr. Serena Blake"
+                  fill
                   className="w-full h-full object-cover"
                 />
               </div>

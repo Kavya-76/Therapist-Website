@@ -28,7 +28,7 @@ const Rates = () => {
               I accept both private pay and insurance. I am in-network with BCBS and Aetna.
             </p>
             <p className="text-lg leading-relaxed">
-              For out-of-network plans, I've partnered with Mentaya using{' '}
+              For out-of-network plans, I&pos;ve partnered with Mentaya using{' '}
               <a 
                 href="#" 
                 className="text-teal-600 hover:text-teal-700 underline"
