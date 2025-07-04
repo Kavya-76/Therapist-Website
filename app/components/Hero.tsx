@@ -7,19 +7,22 @@ const Hero = () => {
   return (
     <div className="min-h-screen bg-[#F3F0E8]">
       {/* Logo Header */}
-      <header className="w-full py-6">
-          <div className="relative h-16 sm:h-20 md:h-30 lg:h-40">
+      <header className="w-full py-2 px-4 sm:px-8">
+        <div className="flex justify-start items-center">
+          <div className="relative w-44 sm:w-70 md:w-84 lg:w-92 aspect-[5/2]">
             <Image
               src="/logo-transparent-png.png"
               alt="Dr. Serena Blake Logo"
               fill
               className="object-contain"
+              priority
             />
+          </div>
         </div>
       </header>
 
       {/* Wrapper for spacing below the logo */}
-      <div className="pt-6 pb-20 px-4 sm:px-20 max-w-screen mx-auto">
+      <div className="pt-4 pb-20 px-4 sm:px-20 max-w-screen mx-auto">
         {/* GIF background */}
         <div className="relative overflow-hidden shadow-lg w-full h-[90vh]">
           <Image
@@ -47,7 +50,11 @@ const Hero = () => {
             </p>
             <Button
               size="lg"
-              className="bg-teal-500 hover:bg-teal-600 text-white font-medium py-4 px-10 rounded-full text-lg shadow-xl transition-all duration-300 hover:scale-105"
+              className="bg-teal-500 hover:bg-teal-600 text-white font-medium 
+             py-3 px-6 text-sm 
+             sm:py-4 sm:px-10 sm:text-lg 
+             rounded-full shadow-xl 
+             transition-all duration-300 hover:scale-105"
               onClick={() => console.log("Schedule consultation clicked")}
             >
               SCHEDULE A CONSULTATION

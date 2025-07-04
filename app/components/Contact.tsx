@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <footer className="py-16 px-4 sm:px-6 lg:px-8 bg-[#F3F0E8]">
       <div className="max-w-4xl mx-auto text-center">
-        {/* Doctor's Name and Title */}
+        {/* Therapist's Name and Title */}
         <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-8">
           Serena Blake, Ph.D., Licensed Psychologist
         </h2>
