@@ -16,14 +16,14 @@ const Footer = () => {
             className="text-lg text-teal-600 hover:text-teal-700 underline"
             data-aos="fade"
           >
-            serena@drserenablake.com
+            serena@blakepsychology.com
           </a>
         </div>
 
         {/* Phone and Fax */}
         <div className="mb-8 space-y-2">
           <p className="text-lg text-[#41413F]" data-aos="fade">
-            Phone: <span className="underline">(310) 123-4567</span>&nbsp;
+            Phone: <span className="underline">(323) 555-0192</span>&nbsp;
             Fax: (310) 123-4568
           </p>
         </div>
@@ -31,7 +31,7 @@ const Footer = () => {
         {/* Address */}
         <div className="mb-12">
           <p className="text-lg text-[#41413F]" data-aos="fade">
-            1234 Maplewood Drive, Los Angeles, CA 90001
+             1287 Maplewood Drive, Los Angeles, CA 90026
           </p>
         </div>
 
