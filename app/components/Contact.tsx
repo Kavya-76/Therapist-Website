@@ -49,7 +49,7 @@ const Contact = () => {
 
   const onSubmit = (data: FormData) => {
     console.log("Form submitted:", data);
-    toast("Message sent! Thank you for reaching out. Dr. Hahm will get back to you within one business day.",
+    toast("Message sent! Thank you for reaching out. Dr. Blake will get back to you within one business day.",
   );
     form.reset();
   };
