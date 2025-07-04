@@ -30,13 +30,13 @@ const Services = () => {
     <section className="py-20 px-4 sm:px-6 lg:px-8 bg-[#F3F0E8]">
       <div className="max-w-4xl mx-auto px-4">
         {/* Heading */}
-        <h2 className="text-2xl sm:text-3xl lg:text-5xl font-thin text-center mb-10 text-[#3b3b3b]">
+        <h2 className="text-2xl sm:text-3xl lg:text-5xl font-thin text-center mb-10 text-[#3b3b3b]" data-aos="fade">
           Therapy can be a space where you invest in yourself— one of the
           highest forms of self-care.
         </h2>
 
         {/* Paragraph */}
-        <p className="text-lg sm:text-xl text-center leading-relaxed text-[#3b3b3b]">
+        <p className="text-lg sm:text-xl text-center leading-relaxed text-[#3b3b3b]" data-aos="fade">
           You may be led to therapy by anxiety, depression, relationship stress,
           past or recent trauma, grief and loss, self-esteem issues, or
           challenges with family, parenting, or parental relationships. Whatever
@@ -51,7 +51,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-light text-[#41413F] mb-4">
+          <h2 className="text-4xl sm:text-5xl font-light text-[#41413F] mb-4" data-aos="fade">
             Areas of Focus
           </h2>
         </div>
@@ -68,17 +68,18 @@ const Services = () => {
                     alt={service.title}
                     fill
                     className="w-full h-full object-cover"
+                    data-aos="fade"
                   />
                 </div>
               </div>
 
               {/* Service Title */}
-              <h3 className="text-xl sm:text-2xl font-light text-[#41413F] leading-relaxed px-4">
+              <h3 className="text-xl sm:text-2xl font-light text-[#41413F] leading-relaxed px-4" data-aos="fade">
                 {service.title}
               </h3>
 
               {/* Service Description */}
-              <p className="text-[#41413F] leading-relaxed px-2 text-base">
+              <p className="text-[#41413F] leading-relaxed px-2 text-base" data-aos="fade">
                 {service.description}
               </p>
             </div>

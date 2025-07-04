@@ -9,7 +9,7 @@ const Hero = () => {
       {/* Logo Header */}
       <header className="w-full py-2 px-4 sm:px-8">
         <div className="flex justify-start items-center">
-          <div className="relative w-44 sm:w-70 md:w-84 lg:w-92 aspect-[5/2]">
+          <div className="relative w-90 aspect-[5/2]">
             <Image
               src="/logo-transparent-png.png"
               alt="Dr. Serena Blake Logo"
@@ -39,14 +39,15 @@ const Hero = () => {
           {/* Text Content */}
           <div className="absolute inset-0 z-10 flex flex-col items-center justify-center text-white text-center p-4">
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-6">
-              Psychological Care for
+              Personalized Therapy for
             </h2>
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-light mb-10">
-              Change, Insight, and Well-Being
+              Healing, Connection, and Growth
             </h2>
             <p className="text-lg sm:text-xl lg:text-2xl font-light mb-10 max-w-3xl">
-              Offering individual psychotherapy for adults via telehealth in
-              Michigan and most U.S. states through PSYPACT participation
+              Supporting adults navigating anxiety, trauma, and relationship
+              challenges—through compassionate care, evidence-based techniques,
+              and telehealth across California.
             </p>
             <Button
               size="lg"

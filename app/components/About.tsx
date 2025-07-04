@@ -22,12 +22,12 @@ const About = () => {
 
           {/* About Therapist */}
           <div className="space-y-6 order-2 lg:order-1">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-[#7E7E6B] mb-8">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-light text-[#7E7E6B] mb-8" data-aos="fade">
               About Dr. Serena Blake
             </h2>
 
             <div className="space-y-6 text-[#7E7E6B] leading-relaxed">
-              <p className="text-lg">
+              <p className="text-lg" data-aos="fade">
                 Dr. Serena Blake is a licensed clinical psychologist (PsyD)
                 based in Los Angeles, California, with over eight years of
                 experience supporting individuals on their mental health
@@ -39,7 +39,7 @@ const About = () => {
                 (CBT) and mindfulness-based approaches.
               </p>
 
-              <p className="text-lg">
+              <p className="text-lg" data-aos="fade">
                 Her therapeutic style is warm, collaborative, and rooted in
                 compassion. She believes that every person&apos;s story is
                 unique—and so should be their healing process. Whether
@@ -50,7 +50,7 @@ const About = () => {
                 to empower you with the tools to thrive in your everyday life.
               </p>
 
-              <p className="text-lg">
+              <p className="text-lg" data-aos="fade">
                 Dr. Blake offers both in-person sessions at her calm, welcoming
                 office on Maplewood Drive in Los Angeles, and convenient virtual
                 appointments via Zoom for clients across California. No matter
