@@ -60,17 +60,17 @@ const Contact = () => {
     <section className="py-16 px-4 sm:px-6 lg:px-8 bg-[#FEFEFE]">
       <div className="max-w-4xl mx-auto">
         <div className="bg-white rounded-lg border border-gray-200 p-8">
-          <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-4 text-center">
+          <h2 className="text-3xl sm:text-4xl font-light text-gray-800 mb-4 text-center" data-aos="fade">
             Get In Touch
           </h2>
-          <p className="text-lg text-gray-600 text-center mb-8">
-            Simply fill out the brief fields below and Dr. Hahm will be in touch
+          <p className="text-lg text-gray-600 text-center mb-8" data-aos="fade">
+            Simply fill out the brief fields below and Dr. Serena will be in touch
             with you soon, usually within one business day. This form is safe,
             private, and completely free.
           </p>
 
           <Form {...form}>
-            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
+            <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6" data-aos="fade">
               <FormField
                 control={form.control}
                 name="name"
@@ -209,7 +209,7 @@ const Contact = () => {
 
               <p className="text-sm text-gray-500 text-center">
                 By clicking submit you consent to receive texts and emails from
-                Dr. Jennifer Hahm
+                Dr. Serena Blake
               </p>
             </form>
           </Form>

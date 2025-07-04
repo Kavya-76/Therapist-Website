@@ -1,7 +1,7 @@
-import React from "react";
-import Image from "next/image";
+import React from 'react';
+import Image from 'next/image';
 
-const About = () => {
+const Temp = () => {
   return (
     <section className="pt-20 px-6 sm:px-6 sm:pt-20 lg:px-8 lg:pt-40 bg-[#FEFEFE]">
       <div className="max-w-6xl mx-auto">
@@ -91,4 +91,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Temp;
