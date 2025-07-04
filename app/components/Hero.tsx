@@ -57,6 +57,7 @@ const Hero = () => {
              rounded-full shadow-xl 
              transition-all duration-300 hover:scale-105"
               onClick={() => console.log("Schedule consultation clicked")}
+              data-aos="fade"
             >
               SCHEDULE A CONSULTATION
             </Button>

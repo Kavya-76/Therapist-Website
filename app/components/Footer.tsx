@@ -23,7 +23,7 @@ const Footer = () => {
         {/* Phone and Fax */}
         <div className="mb-8 space-y-2">
           <p className="text-lg text-[#41413F]" data-aos="fade">
-            Phone: <span className="underline">(310) 123-4567</span> 
+            Phone: <span className="underline">(310) 123-4567</span>&nbsp;
             Fax: (310) 123-4568
           </p>
         </div>
